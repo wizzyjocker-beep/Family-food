@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Découvrez le menu FAMILY FOOD : burgers, pizzas et tacos.">
+  <title>FAMILY FOOD — Menu digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="FAMILY FOOD accueil"><span class="brand-mark">F</span><span>FAMILY <b>FOOD</b></span></a>
+    <div class="top-actions">
+      <button class="lang-btn" id="langBtn" type="button">العربية</button>
+      <a class="order-top" href="#contact" data-fr="Nous contacter" data-ar="تواصل معنا">Nous contacter</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-fr="BONNE CUISINE · BONNE HUMEUR" data-ar="مذاق لذيذ · أجواء عائلية">BONNE CUISINE · BONNE HUMEUR</p>
+        <h1 data-fr="Bienvenue chez <em>FAMILY FOOD</em> !" data-ar="مرحبا بكم في <em>FAMILY FOOD</em>!">Bienvenue chez <em>FAMILY FOOD</em> !</h1>
+        <p class="hero-sub" data-fr="Découvrez nos saveurs et choisissez votre prochain plaisir." data-ar="اكتشفوا النكهات ديالنا واختارو الطبق اللي كيعجبكم.">Découvrez nos saveurs et choisissez votre prochain plaisir.</p>
+        <a class="hero-cta" href="#menu" data-fr="Découvrir le menu ↓" data-ar="اكتشفوا المنيو ↓">Découvrir le menu ↓</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-circle"></div><div class="food-emoji">🍔</div><span class="art-label">FRESH<br> & TASTY</span>
+      </div>
+      <div class="hero-bottom"><span>FAMILY FOOD</span><span>MENU DIGITAL · 2026</span></div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow red" data-fr="FAIT AVEC PASSION" data-ar="محضّر بكل حب">FAIT AVEC PASSION</p><h2 data-fr="Notre menu" data-ar="المنيو ديالنا">Notre menu</h2></div>
+        <p data-fr="Choisissez une catégorie pour découvrir nos plats." data-ar="اختار الصنف باش تشوف الأطباق ديالنا.">Choisissez une catégorie pour découvrir nos plats.</p>
+      </div>
+      <nav class="filters" aria-label="Catégories du menu">
+        <button class="filter active" data-filter="all" data-fr="Tout" data-ar="الكل">Tout</button>
+        <button class="filter" data-filter="burgers" data-fr="Burgers 🍔" data-ar="برغر 🍔">Burgers 🍔</button>
+        <button class="filter" data-filter="pizzas" data-fr="Pizzas 🍕" data-ar="بيتزا 🍕">Pizzas 🍕</button>
+        <button class="filter" data-filter="tacos" data-fr="Tacos 🌮" data-ar="طاكوس 🌮">Tacos 🌮</button>
+      </nav>
+      <div class="menu-grid" id="menuGrid">
+        <article class="food-card" data-category="burgers">
+          <div class="food-visual burger-bg"><span>🍔</span><small>FAMILY PICK</small></div>
+          <div class="food-info"><div class="food-title"><h3 data-fr="Cheese Burger" data-ar="تشيز برغر">Cheese Burger</h3><strong>35 DH</strong></div><p data-fr="Pain, viande, fromage, sauce." data-ar="خبز، لحم، فرماج وصلصة.">Pain, viande, fromage, sauce.</p></div>
+        </article>
+        <article class="food-card" data-category="pizzas">
+          <div class="food-visual pizza-bg"><span>🍕</span><small>À DÉCOUVRIR</small></div>
+          <div class="food-info"><div class="food-title"><h3 data-fr="Pizza Pepperoni" data-ar="بيتزا بيبروني">Pizza Pepperoni</h3><strong>À définir</strong></div><p data-fr="Sauce tomate, fromage, pepperoni." data-ar="صلصة الطماطم، فرماج وبيبروني.">Sauce tomate, fromage, pepperoni.</p></div>
+        </article>
+        <article class="food-card" data-category="tacos">
+          <div class="food-visual taco-bg"><span>🌮</span><small>À DÉCOUVRIR</small></div>
+          <div class="food-info"><div class="food-title"><h3 data-fr="Tacos Maison" data-ar="طاكوس الدار">Tacos Maison</h3><strong>À définir</strong></div><p data-fr="Garniture généreuse, sauce au choix." data-ar="حشوة غنية والصلصة على اختيارك.">Garniture généreuse, sauce au choix.</p></div>
+        </article>
+      </div>
+      <p class="edit-note" data-fr="Les plats et prix marqués « À définir » sont des exemples à personnaliser avant publication." data-ar="الأطباق والأثمنة المكتوب عليها «خاصها تتحدد» غير أمثلة، بدّلها قبل النشر.">Les plats et prix marqués « À définir » sont des exemples à personnaliser avant publication.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div><p class="eyebrow">FAMILY FOOD</p><h2 data-fr="Une envie ? Contactez-nous." data-ar="عجبك شي طبق؟ تواصل معنا.">Une envie ? Contactez-nous.</h2><p data-fr="Ajoutez ici votre numéro WhatsApp, adresse et horaires." data-ar="زيد هنا رقم واتساب، العنوان وأوقات العمل ديالك.">Ajoutez ici votre numéro WhatsApp, adresse et horaires.</p></div>
+      <a class="contact-btn" href="mailto:contact@familyfood.example" data-fr="Nous contacter" data-ar="تواصل معنا">Nous contacter</a>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> FAMILY FOOD</span><span data-fr="Bon appétit ! ❤️" data-ar="بالصحة والراحة ❤️">Bon appétit ! ❤️</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
